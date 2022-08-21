@@ -32,8 +32,8 @@ from Distribution.binomial import Binomial
 b = Binomial(3, 0.2)
 print(b)
 
-b_ = b.binomial_distribution_formula(2)
-print(b_)
+b = b.binomial_distribution_formula(2)
+print(b)
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
